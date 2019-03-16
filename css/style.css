@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,400,700');
+body{
+	font-family: Lato, sans-serif;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+header {
+	width: 1200px;
+	margin: 0 auto;
+}
+.logo {
+	display: inline-block;
+	width: 10%;
+	padding: 0;
+	margin: 0 auto;
+}
+.menu {
+	display: inline-block;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 25px;
+	vertical-align: top;
+	text-align: right;
+}
+
+.menu .item {
+	display: inline-block;
+	width: auto;
+	list-style: outside none none;
+	padding-left: 20px;
+}
+.menu .item a {
+	text-decoration: none;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 30px;
+	text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+	text-transform: uppercase;
+}
+.mainBanner {
+	background: url("../img/main-image.jpeg") center center;
+	height: 880px;
+	margin: -112px auto 0 auto;
+	text-align: center;
+}
+.bannerText {
+	width: 1200px;
+	margin: 0 auto;
+}
+.mainBanner .before-tittle {
+	text-align: center;
+	padding-top: 350px;
+	margin: 0;
+
+	font-family: 'Times New Roman';
+	color:  #ffffff;
+	font-size: 36px;
+	font-weight: 700;
+	font-style: italic;
+	letter-spacing: 1.8px;
+	line-height: 30px;
+	text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+	opacity: 0.8;
+ }
+.mainBanner .title {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 25px;
+
+	color:  #ffffff;
+	font-size: 100px;
+	font-weight: 700;
+	line-height: 100px;
+	text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+	text-transform: uppercase;
+}
+.mainBanner .button {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 40px;
+
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+
+	display: inline-block;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 3px;
+	border-color:  #ffffff;
+	box-sizing: border-box;
+	background-color:  rgba(246, 150, 121, 0);
+	width: 280px;
+	height: 68px;
+}
+.mainBanner .after-title {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 40px;
+
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0.5;
+	text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+	text-transform: uppercase;
+	opacity: 0.8;
+}
+.mainBanner .after-title a {
+	text-decoration: none;
+	color:  #ffffff;
+}
+.mainBanner .after-title:hover a {
+	font-weight: 700;
+	text-decoration: underline;
+}
+.features {
+	height: 435px;
+}
+.featuresList {
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.burger, .money, .chef {
+	display: inline-block;
+	width: 30%;
+}
+.action {
+	color:  #000000;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+	margin-bottom: -10px;
+}
+.action + p {
+	color:  #000000;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 18px;
+}
+.fudiAppSection {
+	background: #f7f7f7;
+	height: 880px;
+}
+.fudiApp {
+	width: 1200px;
+	margin: 0 auto;
+}
+.fudiAppImage {
+	display: inline-block;
+	width: 40%;
+	height: 780px;
+	margin-top: 100px;
+
+}
+.fudiAppDescription {
+	display: inline-block;
+	width: 50%;
+	float: right;
+	margin-top: 180px;
+}
+.titleApp {
+	color:  #000000;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercasecase;
+	margin-bottom: -15px;
+}
+.fudiAppDescription p {
+	color:  #000000;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 18px;
+	margin: 0;
+	padding: 10px 40px 15px 0;
+}
+.appStore{
+	border: none;
+	background: url("../img/appStore.png") center center no-repeat;
+	width: 112px;
+	height: 39px;
+	padding: 0;
+	margin-right: 10px;
+}
+.googlePlay {
+	padding: 0;
+	border: none;
+	background: url("../img/googlePlay.png") center center no-repeat;
+	width: 112px;
+	height: 39px;
+}
